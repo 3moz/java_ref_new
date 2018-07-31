@@ -1,5 +1,5 @@
 /**
- * This program demonstrations the difference between public and private
+ * This program demonstrates the difference between public and private
  */
 
  class Test {
