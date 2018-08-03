@@ -14,7 +14,7 @@ class B extends A {
     }
 }
 
-class AbtractDemo {
+class AbstractDemo {
     public static void main(String args[]) {
         B b = new B();
         b.callme();
