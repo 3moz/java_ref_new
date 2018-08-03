@@ -23,7 +23,7 @@ class Rectangle extends Figure {
     //override area for rectangle
     double area() {
         System.out.println("Inside Area for Rectangle");
-        return dim1 + dim2;
+        return dim1 * dim2;
     }
 }
 
@@ -35,7 +35,7 @@ class Triangle extends Figure {
     //override for a right triangle
     double area() {
         System.out.println("Inside Area for triangle");
-        return dim1 * dim2 /2;        
+        return dim1 * dim2 / 2;        
     }
 }
 
