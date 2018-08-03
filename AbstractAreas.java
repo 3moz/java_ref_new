@@ -43,7 +43,7 @@ class AbstractAreas {
         Triangle t = new Triangle(10,8);
         Figure figref; // this is ok, no object is created
 
-        figref f = r;
+        figref = r;
         System.out.println("Area is " + figref.area());
 
         figref = t;
