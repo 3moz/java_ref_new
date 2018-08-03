@@ -32,7 +32,7 @@ class Triangle extends Figure {
         super(a, b);
     }
 
-    //override for a right triangle
+    //override area for a right triangle
     double area() {
         System.out.println("Inside Area for triangle");
         return dim1 * dim2 / 2;        
