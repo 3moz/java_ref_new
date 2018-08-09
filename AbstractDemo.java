@@ -1,3 +1,6 @@
+import mypack2.A;
+import mypack2.B;
+
 //simple demonstration of 'abstract'
 abstract class A {
     abstract void callme();
