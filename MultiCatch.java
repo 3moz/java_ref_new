@@ -4,6 +4,7 @@ class MultiCatch {
 		int vals[] = {1,2,3};
 		
 		try {
+			@SuppressWarnings("unused")
 			int result = a/b; // generate ArithmeticException
 			vals[10] = 19; // generate ArrayOutOfBoundsException
 			
