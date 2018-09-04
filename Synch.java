@@ -1,4 +1,4 @@
-// this program is no synchronized
+// this program is not synchronized
 
 class Callme {
 	synchronized void call(String msg) {
